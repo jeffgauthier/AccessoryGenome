@@ -4,7 +4,7 @@ By Jeff Gauthier - v1.0-parallel - 7/2/2016 (updated 2/2/2020)
 
 ## Description
 
-This is a toy ortholog search pipeline I used for my MSc thesis. Uses GBK (merged) files as input. I put it here for educational purposes only.
+This is a toy ortholog search pipeline I developed for my MSc thesis. Uses GBK (merged) files as input. I put it here for educational purposes only.
 
 Briefly, this program extracts annotated CDS's from two or more genomes (in GenBank format), aligns each CDS from a genome A against the DNA sequence of genomes B, C etc. Finally, it reports the presence/absence of each CDS in other genomes (% id if presence, N/S otherwise) in a summary table in CSV format. 
 
