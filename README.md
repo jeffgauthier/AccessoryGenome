@@ -1,6 +1,7 @@
 # AccessoryGenome
 
 Program that finds shared and unique CDS genes among pairs of genomes.
+
 By Jeff Gauthier - v1.0-parallel - 7/2/2016 (updated 2/2/2020)
 
 ## Usage 
@@ -18,11 +19,13 @@ or
  * Perl modules `Parallel::ForkManager` and `Math::Combinatorics`
 
 ## Version history
+
  * v1.0-parallel - Parallelized homolog searches (use -T parameter)
  * v1.0 - Fully operational pipeline w/ annotations in result files.
  * v0.9999 - Simplified pipeline.  No annotation feature for now.
 
 ## License
+
 This program is free software: you can redistribute it and/or modify  
 it under the terms of the GNU General Public License as published by  
 the Free Software Foundation, version 3.
